@@ -47,7 +47,7 @@ int main(){
     random_number2 = rand() % 10;
 
     cout << "Question: " << a << endl;
-    if(operators[rand() % 4] == operators[0]){
+    if(operators[rand() % 4] == operators[0])
        GRQATAFA();
     else if(operators[rand() % 4] == operators[1])
        GRQATAFS();
